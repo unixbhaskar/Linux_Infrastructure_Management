@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Basic understanding of Infrastructure | Linux Infrastructure Management</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../things_to_consider/README.html" />
+    
+    
+    <link rel="prev" href="../index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="1" data-basepath=".." data-revision="1412007395046">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="1" data-path="basic_understanding_of_infra/README.html">
+            
+                
+                    <a href="../basic_understanding_of_infra/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Basic understanding of Infrastructure
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="things_to_consider/README.html">
+            
+                
+                    <a href="../things_to_consider/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Things to consider
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="information_management/README.html">
+            
+                
+                    <a href="../information_management/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Information Management
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Linux Infrastructure Management</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_2124">
+                    
+                        <h1 id="basic-understanding-of-infrastructure">Basic understanding of Infrastructure</h1>
+<p>When we start working on something in the infra manage project,we need to understand the environment first to get into the grove.</p>
+<p>For instance,whether it is a normal physical infra or based on cloud.There is a requirement of huge mindshift in working in two different environment.</p>
+<p>Traditional DC environment is quite different then the &quot;virtual Data Center&quot; environment.Things are quite different.</p>
+<p>I have had been to physicall data center and virtual data center too.Operating is quite an undertaking in both the places(yep! you gussed it right..my lack of bend of mind),but somehow I float by on both the environment..without much hassle.</p>
+<p>Now,in physicall data center you need to interact with iron box ,see the cable,configure the rack console and check for the lights on the servers..front and back..and take some decision based out of that!!</p>
+<p>While in the virtual data center you are not so fortunate about seeing those...but the softwares make it simulated for those missing part..sometime it missed and sometime it hits...depend on how the software configured and which software it is(there are plethora of that kind of available in the market,open and closed both).</p>
+<p>Because virtualization arrived late(although it was there for long time..and people ignored it and hardware support were minimal..so never get kick off)and we started to take advantage of it.</p>
+<p>&quot;Cost cutting&quot; is mandatory(buzzword????) word in any IT organization&#39;s portfolio these days and they reap benefit out of virtualization.But..but still some important and mission critical thing runs on physicall place.And I love it...nothing like seeing a iron box in front of you ..so you can view it with your x-ray eyes and touch it.</p>
+<p>Sometime I feel(absolutely my personal opnion)that virtual environment are little bit fragile then the physicall one..probably I came from a normal DC environment to VDC environment that is why.I didn&#39;t meant to say it is inferior or bad..but it has many more ways to fail then the physicall environment.</p>
+<p>Anyway, being in infra management you have to be well conversant with both the environment.No other go...simple.period.</p>
+<p>Yes, one thing is very clear you abound to be more lean on software to manage data center,because the underlying part i.e hardware and other stuffs are taken care by the provider you are opting for i. e Amazon,Rackspace et al.</p>
+<p>I had have struggle(and I am not ahsemed of it)that while moving to cloud I had horrid time,indeed.I still(sometime) failed to understand the terminology there are trying describe something.Let me five you an instance,where I got confused.</p>
+<p>I get into an environment where cloud is mantra and one of team or guy working on two things ,one proxy and second nagios.I keep hearing from the people sitting close to me the HA word for both!! so I was excited..building HA for anything is very exciting..indeed.So,one day I was overly curious and ask one of them what this fuss all about HA...where is heartbeat(the software) and how it has been configured...but boy what I came to know that they are simply building those in two different place and using the feature of AWS&#39;s autoscalling.</p>
+<p>I am not sure,what will be the outcome..but my conventional mind jump into building conventional way of building HA...heck..</p>
+<p>I had the good fortune to work for pretty big and good name IT giant for sometime and I saw it all.I still remember the first day I went into DC with my manager,and I was awstuck to see thousand of physicall box in different shape(one of the shape dominating although) and size.. boy and the sound and the chillness of the place!!</p>
+<p>O did I see those so called &quot;big shots&quot; during yearly downtime..those who refrain show up all the time in the year and sent some chilled and awful emails to the person down the lines...amazing persons those are...heck</p>
+<p>Managing geographically distributed DC or working in it is a daunting task.Specially when you are working in pretty low(o yeah not in that &quot;big shot&quot; role),because lot of things get hide from you.Reason behind exactly two: you are not in the &quot;big shot&quot; level to know everything, forget about accessing and seeing.Second,you have been constantly told &quot;do not assume anything&quot;..how come?I think those who said ,seriously deserve a f<em>*</em>  word .Can&#39;t help.</p>
+<p>Now the downside..I was running some automation cript,and which boteher some users;he complanied to me &quot;what is your problem&quot;..I was bit weary that time.</p>
+<p>Working in 24/7 and 365 days schedule mar lot of your plan and commitment,but has to do.Once taken the responsibilities you just can not bypass it,because lot of thing might depend on your action.Sobesically I meant to say  prepared for the heads up very frequent and repetatitive way and pull your socks all the time..no respite.</p>
+<p>General term try to seggrigate the important thing from the masses.So you can get hold of them in time of urgency.Like ,you should have know and have enlisted somewhere in your notebook..where the dns servers are and where the NIS server are.</p>
+<p>Last but not the least,you got to work with a team of people like you..so try to mingle with them genuinely and make them feel happy about you.Because they will be the one who will save your arse when you will be in distress.</p>
+<p>Okay, enough chit chat...lets fasten your sit belt for the ride.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../index.html" class="navigation navigation-prev " aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../things_to_consider/README.html" class="navigation navigation-next " aria-label="Next page: Things to consider"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

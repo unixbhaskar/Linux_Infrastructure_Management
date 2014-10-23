@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Things to consider | Linux Infrastructure Management</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../information_management/README.html" />
+    
+    
+    <link rel="prev" href="../basic_understanding_of_infra/README.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="2" data-basepath=".." data-revision="1412007395046">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="basic_understanding_of_infra/README.html">
+            
+                
+                    <a href="../basic_understanding_of_infra/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         Basic understanding of Infrastructure
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="2" data-path="things_to_consider/README.html">
+            
+                
+                    <a href="../things_to_consider/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Things to consider
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="information_management/README.html">
+            
+                
+                    <a href="../information_management/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         Information Management
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Linux Infrastructure Management</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_2126">
+                    
+                        <h1 id="things-to-consider">Things to consider</h1>
+<p>We are suppose to know the underlying infrastructure,I mean to say how the servers are organised as hardware basis and what are the network connection to those boxes.It seems it&#39;s a kinda mandatory thing to know about it to operate in efficient manner.</p>
+<p>Indeed, it plays huge role to know where are those boxes reside,for clould related matter it&#39;s good to know that which zone it is in.</p>
+<p>We have nowdays so many tools available to tell us the information about the underlying infra.In older days we used to write script to get the low level details to automate thing ,now the scope little less as more and more smart people desing and architect tools to take the pain away from ordinary mundane people like us. And it helps immensely to spend your time to do actual thing ,rather wasting time to figure out where it is and how it works(yep to some extents...but still rquire some investigation and time to get into the gory details) ...but that is the curiosity part.A sensible infra person is hugely curious and concious about what he/she is doing.</p>
+<p>I,personally refrain from doing anything if I am not at least major part of it clear to me.Because we all know how bad the &quot;half knowledge&quot; is.A premature assumtion can lead you nowhere and create havoc.Why get into that situation ,when you are open to operate it and abound to provide some result. No,I do not gauge people by result..it sometimes mislead you.The approch,that will make all the difference in open system(read GNU/Linux and related systems) will allow to navigate deep down.Provided you are willing to spend time with it. Okay,let me contradict it by saying that ,working in BU doesn&#39;t always bring you the luxury of time to get deep into it.I agree. But how about your personal time and knack towards it?? does it taken away by the job you are bound to do? if that is the case,thing about doing that kind of job one more time.</p>
+<p>We should have understanding of how the servers are build from ground up.I mean getting to know the hardware specs i.e how many cpu core ,how much ram,how how many nic,what about the power supply .which rack it is seated and what is lebel on it et al.</p>
+<p>Those information will help immensely. I had been to a situation ,where I was asked to put the lebel on the iron box..for cloud you can tag it easily.Not only that,looking at different light color on the server panel give you hint about what is going on  inside..although not necessarily that all the time it will do .You got to taken into consideration for that speciic even you are working on.</p>
+<p>Important note,now days every one depends on google and other search engine...I too benefitted out of that. But I grew up in a stage and era where internet was not easily available to my country..so I had lean on books(yes hard cover..I still prefer them!) and peers knowlege(you might be luckey enough to get a proper person to enhance your knowledge..lot of factor involve into it).</p>
+<p>So , taken the thing to your head by yourself.I did.I do.And it takes time( becuase I don&#39;t have sharp bend of mind,like you have) ,but once I get into it(which certainly has to interest me..at this age...not anymore to bound to do it situation) ...but doing it for the sake of love and discovery.</p>
+<p>I am not very impress about when I saw/see people with some airy-fairy ideas talk big and nonsense.Because I have had come across people who do practice to gain attention but false vanity.Now ,how dare I say nonsense?Because they just don&#39;t have any use case with them..putting ideas for the sake of doing it ,nor they have any hands on thing on that..that irk me a lot.</p>
+<p>When you are not so lucky to know everything,like working with a clould operator,you have to take different route to get things done.And I sometime get bemused by the fact the way things getting done.Oversimplefication is a curse in clould(or I have some mental block about it...need to figure out that).Lots of misnomer is floating out clould place and it is very very easy to get lost into it .</p>
+<p>Why not take some time to read the spec and documentation about it then jump the gun and work on to it? I had have stumble block about it. So ,I decided to give it a shot and read through large chunk of it( only that concern me..YMMV).And I believe I get hold on few portion of it solidly..thank god .. I did.</p>
+<p>I have serious problem with me from long time...I can easily figure out whom to approch and whom not and what to listen and what not...most of time and it not necessary I had have come out with positive all the time..but most of the time I was/am benefitted out of that approch.Now how come I distinguish that person? Intution and gut feeling(again YMMV) .But having said that I am not stick with a perticular method or rule( I hate it like anything),am pretty open to anything fruitful.</p>
+<p>I like people who are on my face ..and I like to be called an &quot;idiot&quot;...if that doesn&#39;t make sense to them whatever I propose or do.Because ,by being told idiot or similar kind of thing ,two thing come out...the person is really caring about you and wanted you to improve(I have seen some skeptic,naysayers...they are just saying it out of their habit..and I can figure it out easily..and give them back what they deserve) and you will get chance to introspect about something you stopped thinking.So,it helps you to become much more stronger and effecient and respectul to those who cares. And it also not allow you to live in &quot;illusionary bubble&quot; anymore.That&#39;s good.</p>
+<p>When you maintain stuff in &quot;low&quot; level ..but not mean real low level...but to mention in the hardware level..you are supposed to be good with the vendor.They can bail you out of lot of hassle.I still remember opening up a IBM X series box and look into it excite me a lot.I was a plain watcher..my expert collegue were doing all the stuff that time.</p>
+<p>Physical networking is utmost importance to work of data center(whether it&#39;s physicall or virtual doesn&#39;t matter).I generally keep a patch cable in my laptop bag most of time.And I have had seen big network experts with lot of physical tool in the data center.Blinking of
+light on ethernet port is crucial.Sometime it does blink but you failed to understand why the hell server is not responding to the network query...real thing..need to check few more places to confirm.</p>
+<p>DO NOT REBOOT the machine for trivial reason,because it takes servers to boot little more time(some time really good time) to get it back,because lots of things getting initialized while a server boots.Second,you can fix most of the network software related stuff on the console and bouncing the service.Yep, if you are having hard luck with physicall fault in the network..then chances are dooms for you .You need to get the help from the network experts..I mentioned above,a person with lots of physical tools.</p>
+<p>OR if you still do..without understanding the impact ..please make sure your CV is updated and well circulated.</p>
+<p>So, everybody knows those fact ,who has spend enough in the corporate environment.I personally almost did that kind of mistake once..fortunately my reporting boss help me to prohibit that.When you have rack full of servers and no label on it..that might cause lots of trouble..in my case it was almost happening for that reason.</p>
+<p>Never run any automation script without prior permission of the person who incharge of it.I did. And I was castigated by the people for ruin their job on the machine..heck..so,even if you are good enough on something still it require you to be on top of it get the best out of it.I was not in that case.so I made people life misrable.And the important thing I took the lesson in positive way.I wasn&#39;t vigilant or informed enough to do such kind of thing on that environment.It&#39;s not about running what you know..it&#39;s all about how you run and why you run .</p>
+<p>Cover your arse too!so people get less chance to get on you.By saying that,whatever you do should have some checkpoint and mail related to that.And perhaps the doc related to that.So,in case of question raised by some &quot;black suit wearing&quot; person you can redily refer to that.</p>
+<p>Linux..Linux...Linux...all I have care all though out my edeavour and cared less other stuff(purely because of lack of bend of mind and time to think about other,but that does not include open source...).I believe thinking in sigular fastion sometime help you to achieve more then think multidimentional way.At least it helps me confined within one domain and help me to grow.But you can stick to whatever interest you.In this bookI will solely focus on GNU/Linux..because that the thing I am living with from long time.I love it...I hate it...I embrace it...I proliferate it..I endowed it..the list can go on and on.Whatever I learn using it over an decade and exposed to different environment doing different act.</p>
+<p>O BTW ,managing an experiance NOC team and devops demand little bit more ehanced version of yourself.I have had learned it hard way...yep indeed.Managing some egoistic human is certainly not fun.Machines are good..they do what I want..but human are blessed with EGO and they are predominant in most of us,time to time came out .But,for some people it is always the way forward..heck..they seriously deserve a kick on their arse..sorry no other go.</p>
+<p>Okay,&quot;Your manager is always right&quot; is that so?? I don&#39;t believe.The only thing separate you from your manager is exposed to more information about related matters.He might have gained it by some other means then he can..but still he/she is ahead of you.So ,respect them on that count. And make sure you extract out what you need from them.Most of them talk loads of rubbish..so put a filter on their verdict.They past bring past event of their story into present by forgetting that this is now different.</p>
+<p>No,I am not saying disrespect them,give them the due they deserve.Mreover who wants the story..give me your code I will figure it out myself..I don&#39;t need your past story.Never say that on their face..react like that..so next time they will be cautious enough to take you on.Am I ranting against the managers?? A big no.Reread the above paragraph again.I just pont out the truth and what you should do.There are lots of good and I mean genuinely good people around,who are manager,it just a tiny bit of luck you need to get bumped onto them.But,alas! you will find the bad one are outnumbered the good one...indeed.So,keep your finger crossed for that and stop listening to stories.</p>
+<p>Get yourself enough chance to fail.By acquiring more knowledge and work.Please make mistake and learn from it.Get into a discussion on IRC channel( to meet some rude guys) and in some forums(where most of the time half-cooked information shared!! except two places..Gentoo forum and Arch Linux forum), and I really like those places..people are so explicit and to the point for problem solving and they expect people come there to be explicit and clear.Am I bised? No I am not.I personally run 13 different GNU/Linux distribution in my laptop from long time and I have been to most the forums related to those.So,I know which is what.</p>
+<p>Now ,the more information you gather by any means(from your manager or by interacting with knowlegible colleague),the more chance you can get over quickly with the obstracle.</p>
+<p>Read ,read ,read...and practice ..practice ..practice...no subtitution for those.I do.I am not going to give lecture on that.I learnt it by that fasthtion.Investing on good books can benefit you on long run.I have personally around close to 100 UNIX/Linux book in my shelve(at least went through them twice),not for sake of collecting book and counting the league,but to explore and know more.Nowdays it&#39;s become even more possible and easy.</p>
+<p>We are in a field which is constantly changing and progressing.Moreover it is a cognitive science,so the more we armed with knowledge,the more we can thrive.Now,there is a catch.Becuase of google everybody become experts(I have come across few..O Hell),lot of information is not worth.So ,you need to identify which is required and which one need to discard.At least I have limited space my grey cell,so I discard a lot,keeping only those which will help me deduce something related I am doing /will be doing very soon.It is certainly not easy job,doing so need some sort concentration ,like the way we configure software in the servers.One sily mistake and you are in a position to missed the information for good.Sometime it might be costly to miss those.And we do miss those.After all we are human.To human is err.</p>
+<p>Cloud...OMG cloud!!!...did I mentioned that I struggled with it initially? Yes, I had a torrid time with the
+terminology used by the expert clould infra folks.Okay,someow now I an get hold on it ...although not completely.Cloud has a magnificent upside and equally has a wonderful downside too.So,if you are opting for it,then you need to embrace both by your hand.</p>
+<p>It will take away the overhead of maintaining the physical data center and related stuff..like cooling,personnel et al. And it can spin up a server in very quick time,so the downtime goes for a toss.Now the cons,you loose little control over the hardware and networking stuff ,which sometime not good.You will be dependent on others to provide you the underlying infra.One predominant misconception in people head is that cloud is cheap.NO it is not.period.You got to pay for every little things,which might accumulate exceeed your budget long run.</p>
+<p>There are lots of player for cloud in the market,few of the renouwned ones are openstack,cloudstack,Eucalyptus,OpenNebula. So ,they offer services according to their strength.But ,all of them are basically good.Do not forget AWS,they are the
+front runner in that space.Most of them support the AWS API to get the interoperability.</p>
+<p>So, gets your hands dirty with it(more on that later)will certainly help you  to excel in this field.I don&#39;t know I always prefer the cli way of doing thing..probably it stuck with me from the begining.If and only if necessary then only I can fall back on GUI.O BTW you can use ncurses based UI on the terminal itself.And there are many many tools are available to do the required job.In face ,renouned distributions supply the tui version of of GUI, that is good part. Because we will be working most of the time in a headless environment(headless in server term ,no X11 or GUI related stuff installed,security measure).So,get yourself accustomed to the cli,it certainly help...moreover it much faster then GUI(when invoked,it will bring along plethora of thing along with it..in turn more time to get work ).Try yourself running a GUI app from the terminal,you can only see what is going on behind the scene.When you operate on server,you just can not afford that clutter your terminal,if you suppress that too..why bother invoking that,when you have alternative  available,which is much more light wight.</p>
+<p>Now,when you choose your OS ,give it a thought that ,are you going for 32bit(almost nobody using it now) and opt for 64bit.The architecure is almost simlar with little tweak.And more space in address bus and data bus.So, calling to the system call return faster.There is no visual difference between 32bit and 64bit apart from naming convention to the /lib directory.But,internally it might play huge,as I mentioned briefly in the above.Moreover you are giving yourself more chace to embrace with current proceeding in hardware front,which in turn help the server to take advantage of the underlying technological advancement.</p>
+<p>And what more? I think I have given enough details above for the heads up.</p>
+<p>Lets get into more technical details in the next chapter.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../basic_understanding_of_infra/README.html" class="navigation navigation-prev " aria-label="Previous page: Basic understanding of Infrastructure"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../information_management/README.html" class="navigation navigation-next " aria-label="Next page: Information Management"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
