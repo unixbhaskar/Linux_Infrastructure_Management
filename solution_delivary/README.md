@@ -111,3 +111,19 @@ echo $result | $GAWK -F: '{ print    $1"               "$2"                   "$
 ```
 
 ```
+I would like to record the failure too!!so I can get a betting insight about the problem solving.You can capture it several ways in the server itself and then send the file by mail or central location from where you can audit.One of ready tool will be unix tool i.e script. It will record everything you typed at the terminal and create a file in the respective user home dir(although you can tweak it).They are many more "Enterprise way of doing that thing ...which I am not to inclined to discuss.
+
+RCA,it is big big buzzword in lasser IT driven company ...I have had worked for them I know how pathetically they wrote those...full of nonsense stories..kinda red herring.
+
+Writing an RCA require lot of insight of the system and need to get the details with proper tool and correct interpretation.It should be invigorating details of the problem cause and reader should get excited to know about the fact.Again ,NO STORIES PLEASE.There are plethora of tools come and inbuilt into linux ,which can assist a great deal.What I am trying to say here is,get minimal dependency on third party tools.The more you are depend on it ,the more get diviated from the fact.Yep,I know those tools can give you some eye candy thing ,which will satisfy the needs of "Black Suit" wearing guy...but that's that...nothing more.You ,practically get a opeque information about the event..by the way,it does need some specific daemon to be run in the box with some arcane business license.
+
+So,I would prefer to fuse in some tool ,while building the server/building the AMI for future work.If it is production base/or public facing ,please for heven's sake DO NOT INSTALL development library in it.I am just trying to close one more door to the bad guys.When the bad event happen we can capture the thing to the points.
+
+I personaly write RCA in plain text form(that is the best way I can describe the problem-solution capture).And the RCA should not be too long or filled with some boring details,but must have some pure technicalities attached to it.Most of the time ,it should be restricted to three paragraph,I believe that is good enough.O yeah,you have to pray hard that the set of people you send the thing should read and read throughly (because you have invested lot of invaluable time in it to figure out properly) ,barred those "Black Suite" wearing fellas ,who only rely on matix.You should be ready to explain every details that you capture out of the problem state,if someone come back to you with good intention(you can figure that out very quickly..),so the more you understand the problem and the solution you are driving for,the better,and you can convey it to less technical people at ease.Yep,that is thing you need to learn,practice and deliver.
+
+Now,you must have some pure technical doucmentation writer at your disposal.The RCA you write,is not acceptable to the overall client and those "Black Suite" wearing fellow.The technical documentation person will take your text RCA and put it in the "Enterpise ready" format to send them to those fellas.That is the norm in the corporate.The person,should be well versed or should have enough bend of mind understand what you did,and not try to tweak/alter/break ,then put it in that format in "More" readable format for those "true lazy" fellas.You must have a session with the technical documentation expert after he/she format your RCA in that specified format,just to check nothing got distorted or deviated,what you wanted to deliver.A little bit ITIL knowledge would not harm these activity in both the sides.I am sorry,if I sound pretty "Enterprisish" in the above.I am solely thinking of the BU infra management.But,in the open source world ,we can/could done it much more variant way.
+
+Next,we will discuss the importance of automation and software configuration management.
+
+
+
