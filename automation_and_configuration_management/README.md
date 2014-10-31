@@ -42,3 +42,5 @@ pipe's reading end to sshpass using the -d option.
 
 
 So,you can see the heads up right? Does the environment had got some sort of binding to some sort of compliance to prohibit key-exchange? No.They just simply failed to realised the importance of it.See,the little things make hell lot of difference.
+
+Because I did open source development and install tweak many many thousand of software ,so I have had the habit of reading the README or DOCUMENTATION file before I started to do anything with the software.It is always a good habit to read the important information beforehand and then jump onto it.It's help certainly.So ,getting into that habit need sometime spend with it.Nowadays ,most people are so accustomed with search engine ,that they forgot the habit of reading the crucial piece.Because whenever they are in doubt ,they just use the search engine to find the answer,I too do,but very very limited cases ,not all the time,plus in very few specific places.
