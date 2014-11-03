@@ -38,6 +38,7 @@ problem. Users of sshpass are encouraged to use one of the other password passin
 pipe's reading end to sshpass using the -d option.
 
 ```
+```
 
 
 So,you can see the heads up right? Does the environment had got some sort of binding to some sort of compliance to prohibit key-exchange? No.They just simply failed to realised the importance of it.See,the little things make hell lot of difference.
