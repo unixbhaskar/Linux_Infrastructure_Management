@@ -13,3 +13,5 @@ It's not just about taking backups,it is also essential to validate it before pu
 Okay,as I had work with really tiny organization where some costly or proprietory backup tool was real luxury to have.They did use the built in tool comes along with specific flavour of linux they were using or get something which is free.Yep,lot of smart people are there in open source world who writes and even smarter one who build and deploy those.
 
 Different industry work different way.I mean they deploy workaround strategy to deal with it.I have been to different industry and I have seen quite a few,none match with other, but they all do the same work with different tools.Even the rsync ran overnight to get the content from one server to another!!
+
+
