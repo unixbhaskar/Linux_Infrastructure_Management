@@ -1,6 +1,6 @@
 # Linux Infrastructure Management
 
-Welcome to the parlance of GNU/Linux infrastucture management space.
+Welcome to the parlance of GNU/Linux infrastructure management space.
 
 This book is all about how effectively we manage infrastructure related to Linux in enterprise environment.
 
