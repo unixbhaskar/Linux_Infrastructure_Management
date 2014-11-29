@@ -8,5 +8,5 @@
 * [Solution Delivery](solution_delivery/README.md)
 * [Automation and Configuration Management](automation_and_configuration_management/README.md)
 * [Backup and Retrieval](backup_and_retrieval/README.md)
-* [Monitoring Infrastructure](monitoring_infrastructure/README)
+* [Monitoring Infrastructure](monitoring_infrastructure/README.md)
 
