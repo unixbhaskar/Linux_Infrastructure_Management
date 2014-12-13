@@ -1,2 +1,4 @@
 # Monitoring Infrastructure
-Building the infrastructure is fine,but we need to monitor it constantly for the status and it's health.So, we can take decision on the basis of that report.
+Building the infrastructure is fine, but we need to monitor it constantly for the status and it's health. So, we can take decision on the basis of that report. And sometime we will introduce some strategy to take decision upon the status we received. Many enterprise deploy different kind of tools to measure those status and take decision out of that reports . But, at least few them generate or prone to produce some false alarm and reports based on that. So, we need to eliminate those "false positive" from the actual reports to streamlined the decision making process.
+
+Lets get our discussion absolutely to the point , by which I mean , lets talk about some tools ,which are deployed across the enterprises . As I believe and use and advocate to use free and open source software everywhere, plus I am more accustomed with that pattern of open source; you can expect lot suggestion based out of information and hands on things.
