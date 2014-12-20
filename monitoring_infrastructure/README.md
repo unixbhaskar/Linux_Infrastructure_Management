@@ -9,4 +9,8 @@ There is no hide and seek for my liking ; I like Nagios a lot. Why? partly becau
 
 Nagios can be built from the scratch as per the requirement in hand . I did it ,by compiling from the source ,refrain from get it by package manager of the particular OS . By doing so,  I came to know how I can fine tune my built ( like every other open source software build) . But, going by package manager route give you an OS dependent way of deploying it, which sometime beneficial for the infrastructure ,but less flexible one. It's up to you ,how you go about the job.
 
+Let me get fair enough to other monitoring tools too. They are as good as Nagios, yep few of them; not all. Plus the overhead of configuring those tools require you to invest great deal of precious time to get it right. Am sound too leaned towards Nagios?? Might be , but I can tell, Cacti is a wonderful tool , I had struggle a lot to get it going , but in the end it was all satisfactory. 
+
+But at the end you have to have some sort understanding about SNMP, because the underlying protocol will be that for infrastructure monitoring. Understanding the OID and MIB do help great to decide what to do with the monitoring.
+
 
