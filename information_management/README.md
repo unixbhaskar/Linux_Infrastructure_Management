@@ -87,7 +87,7 @@ For instance, you might have solve a critical problem in the infrastructure, but
 
 Another case, say ,you might be doing something very important to the infrastructure, and probably with a team, and in the team not everyone has got same wave length(you have to understand it), so it might get screwed up quick time by somebody's mistake. Then you might get back to the pristine state by look at the road map for that particular project.
 
-Do not trust anyone ..always validate ..where the information coming and how they are coming and whom is providing that !If you do; you have a safe bet .But still we falter ...to human is err.
+Do not trust anyone ..always validate ..where the information coming and how they are coming and who is providing that!If you do; you have a safe bet .But still we falter ...to human is err.
 
 Okay ,we might take advantage of several open source tool to keep the things in place and available in time. Like, Trac and other custom grown KB.
 
