@@ -6,9 +6,9 @@ For instance, whether it is a normal physical infra or based on cloud. There is 
 
 Traditional DC environment is different then the "virtual Data Center" environment. Things are  different
 
-I have had been to physical data center and virtual data center too. Operating is an undertaking in both the places (yep! you guessed it right, my lack of bend of mind) ,but somehow I float by on both the environment without much hassle.
+I have had been to physical data center and virtual data center too. Operating is an undertaking in both the places (yep! You guessed it right, my lack of bend of mind) ,but somehow I float by on both the environment without much hassle.
 
-In physical data center, you need to interact with iron boxes ,watch out for the cables, configure the rack console and check for the lights on the servers front and back and take some decision based out of that!!.
+In physical data center, you need to interact with iron boxes , watch out for the cables, configure the rack console and check for the lights on the servers front and back and take some decision based out of that!!.
 
 While in the virtual data center, you are not so fortunate about seeing those, but the software make it simulated for those missing part, sometime it missed and sometime it hits ,depend on how the software configured and which software it is (there are plethora of that kind of software available in the market, open and closed both).
 
@@ -24,7 +24,7 @@ Yes, one thing is very clear that you bound to be more lean on software to manag
 
 I had have struggle (and I am not ashamed of it) that while moving to cloud I had horrid time, indeed. I still (sometime) failed to understand the terminology people are trying to describe something. Let me give you an instance, where I got confused.
 
-I get into an environment where cloud is "mantra" and one of team or guy working on two things ,one proxy and second nagios. I keep hearing from the people sitting close to me the HA word for both!!  I was excited; building HA for anything is very exciting, indeed. One day I was overly curious and ask one of them ;what this fuss all about HA? where is heartbeat (the software) and how it has been configured? but boy!, what I came to know that they are simply building those in two different place and using the feature of AWS  autoscalling.
+I get into an environment where cloud is "mantra" and one of team or guy working on two things ,one proxy and second Nagios. I keep hearing from the people sitting close to me the HA word for both!!  I was excited; building HA for anything is very exciting, indeed. One day I was overly curious and ask one of them ;what this fuss all about HA? where is heartbeat (the software) and how it has been configured? but boy!, what I came to know that they are simply building those in two different place and using the feature of AWS auto scaling.
 
 I am not sure, what will be the outcome; but my conventional mind jump into building conventional way of building HA, heck..
 
@@ -32,7 +32,7 @@ I had the good fortune to work for pretty big and good name IT giant for sometim
 
 Oh did I see those so called "big shots" during scheduled downtime? Those who refrain showing up all the time in the year and send some chilled and awful emails to the person down the lines, amazing persons those are, heck.
 
-Managing geographically distributed DC or working in it is a daunting task. Specially when you are working in pretty low (o yeah not in that "big shot" role), because lot of things get hidden from you. Reason behind exactly two: you are not in the "big shot" level to know everything, forget about accessing and seeing. Second, you have been constantly told "do not assume anything"; how come? I think those who said that ,seriously deserve a f***  word .Can't help.
+Managing geographically distributed DC or working in it is a daunting task. Specially when you are working in pretty low (o yeah not in that "big shot" role), because lot of things get hidden from you. Reason behind exactly two: you are not in the "big shot" level to know everything, forget about accessing and seeing. Second, you have been constantly told "do not assume anything"; how come? I think those who said that ,seriously deserve a f***  **word .Can't help.**
 
 Now the downside. I was running some automation script and which bother some users; they  complained to me "what is your problem?; I was bit weary that time.
 
