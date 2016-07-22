@@ -43,14 +43,15 @@ A: /usr/sbin/apachectl configtest
 
 Alternatively , check for sites specific log in specific domain dir log.
 
-Resolving: High Apache/Httpd Memory Usage
+**Resolving: High Apache/Httpd Memory Usage**
+
 Apache can be a big memory user. Apache runs a number of 'servers' and shares incoming requests among them. The memory used by each server grows, especially when the web page being returned by that server includes PHP or Perl that needs to load in new libraries.It is common for each server process to use as much as 10% of a server's memory.
 To reduce the number of servers, you can edit your httpd.conf file.There are three settings to tweak: StartServers, MinSpareServers, and MaxSpareServers.Each can be reduced to a value of 1 or 2 and your server will still respond promptly, even on quite busy sites. Some distros have multiple versions of these settings depending on which process model Apache is using.In this case, the 'prefork' values are the ones that would need to change.
 To get a rough idea of how to set the MaxClients directive, it is best to find out how much memory the largest apache thread is using. Then stop apache, check the free memory and divide that amount by the size of the apache thread found earlier. The result will be a rough guideline that can be used to further tune (up/down) the MaxClients directive
 
 Setting “MaxRequestPerChild”  to a non-zero limit will solve some memory leakage problem; but that has to be supplied judiciously.
 
-Say, What is MPM the server is running and how will serve the content will dictate the term for setting parameters in main config file.
+Say, What the MPM the server is running and how will serve the content will dictate the term for setting parameters in main config file.
 
 How to find ALL the virtual host in shared box:
 
@@ -119,7 +120,7 @@ Writing an RCA require lot of insight of the system and need to get the details 
 
 So, I would prefer to fuse in some tool ,while building the server/building the AMI for future work. If it is production base/or public facing ,please for heaven's sake DO NOT INSTALL development library in it. I am just trying to close one more door to the bad guys. When the bad event happen we can capture the thing to the points.
 
-I personally write RCA in plain text form (that is the best way I can describe the problem-solution capture). And the RCA should not be too long or filled with some boring details, but must have some pure technicalities attached to it. Most of the time ,it should be restricted to three paragraph, I believe that is good enough. O yeah, you have to pray hard that the set of people you send the thing should read and read throughly (because you have invested lot of invaluable time in it to figure out properly) ,barred those "Black Suite" wearing fellas ,who only rely on matrix. You should be ready to explain every details that you capture out of the problem state, if someone come back to you with good intention (you can figure that out very quickly..), so the more you understand the problem and the solution you are driving for, the better, and you can convey it to less technical people at ease. Yep, that is the thing you need to learn, practice and deliver.
+I personally write RCA in plain text form (that is the best way I can describe the problem-solution capture). And the RCA should not be too long or filled with some boring details, but must have some pure technicalities attached to it. Most of the time ,it should be restricted to three paragraph, I believe that is good enough. O yeah, you have to pray hard that the set of people you send the thing should read and read thoroughly (because you have invested lot of invaluable time in it to figure out properly) ,barred those "Black Suite" wearing fellas ,who only rely on matrix. You should be ready to explain every details that you capture out of the problem state, if someone come back to you with good intention (you can figure that out very quickly..), so the more you understand the problem and the solution you are driving for, the better, and you can convey it to less technical people at ease. Yep, that is the thing you need to learn, practice and deliver.
 
 Now, you must have some pure technical documentation writer at your disposal. The RCA you write, is not acceptable to the overall client and those "Black Suite" wearing fellow. The technical documentation person will take your text RCA and put it in the "Enterprise ready" format to send them to those fellas. That is the norm in the corporate. The person, should be well versed or should have enough bend of mind understand what you did, and not try to tweak/alter/break ,then put it in that format in "More" readable format for those "true lazy" fellas. You must have a session with the technical documentation expert after he/she format your RCA in that specified format, just to check nothing got distorted or deviated, what you wanted to deliver. A little bit ITIL knowledge would not harm these activities in both the sides. I am sorry, if I sound pretty "Enterprise thing" in the above. I am solely thinking of the BU infra management. But, in the open source world ,we could done it much more variant way.
 
