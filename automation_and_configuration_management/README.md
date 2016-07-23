@@ -17,29 +17,20 @@ Say, we want to change the configure file of fleet of web server farm, and that 
 
 I believe all the SCM provider including puppet and Saltstack has plethora of modules available for ready to use. Just get them from the internet and modify it according your requirement. Those are all templet file  and few of them are really smart to assume the requirement too (specifically dependency related). Now, it is making our life easy and more productive. We get more chance to actually lean on the problem then thinking of something else. It is a boon to have that kind of software available for infrastructure management. And you can do many many different task accomplish with it, with minimal fuss. I believe the syntax are pretty clear and precise, thanks to the pain taken by those authors to make life easy for others.
 
-I have had seen people in the infrastructure management doing automation for the sake of doing it. Why? there are plenty of reason, notably to show the vertical that they can do better job and "quality" jobs; expertise in that skill, in turn trying to say "elevate me" kinda statement. Most of those folks get the recipe from internet (mostly from unverified source, how do you verify that?) and plain modification. I have had seen they are not even bothering to see checksum of the download. If something creeps in ,the entire infrastructure will at stake. And also the poor practices of doing thing (yeah, I know same result can be achieved from different way..), but certainly not in efficient way. There must be a properly and efficient way of handling it, for that before implementing that ,lot of test has to be made. Most of the time and infrastructure missing those guidelines. Let me give you a example of this kind of practice. I was in with big name ,but they are trying to get a foot hole in IT, and got a non IT client. So, they have hired me for do certain job. Now ,while in that setup I have seen people use very poor practices on open system. Instead of using key-exchange, they are using "sshpass"!!
+I have had seen people in the infrastructure management doing automation for the sake of doing it. Why? there are plenty of reason, notably to show the vertical that they can do better job and "quality" jobs; expertise in that skill, in turn trying to say "elevate me" kinda statement. Most of those folks get the recipe from internet (mostly from unverified source, how do you verify that?) and plain modification. I have had seen they are not even bothering to see checksum of the download. If something creeps in ,the entire infrastructure will be at stake. And also the poor practices of doing thing (yeah, I know same result can be achieved from different way..), but certainly not in efficient way. There must be a properly and efficient way of handling it, for that before implementing that ,lot of test has to be made. Most of the time and infrastructure missing those guidelines. Let me give you a example of this kind of practice. I was in with big name ,but they are trying to get a foot hole in IT, and got a non IT client. So, they have hired me for do certain job. Now ,while in that setup I have seen people use very poor practices on open system. Instead of using key-exchange, they are using "sshpass"!!
 
 The biggest problem here, the whole set rarely read the man page, instead they are heavily relied on google. And they might have seen it some verified  blogs and use that and nobody crosschecking. Now, if they are good enough they might have glean on the man page before doing all the nonsense. Let me give you an excerpt from the man page itself..
-```
-```
 
+```
 SECURITY CONSIDERATIONS
 
-   First  and  foremost, users of sshpass should realize that ssh's insistance on only getting the password interactively is not without reason. It is close to
-impossible to securely store the password, and users of sshpass should consider whether ssh's public key authentication provides the same  end-user  experi‐
-ence, while involving less hassle and being more secure.
+   First  and  foremost, users of sshpass should realize that ssh's insistance on only getting the password interactively is not without reason. It is close to impossible to securely store the password, and users of sshpass should consider whether ssh's public key authentication provides the same  end-user  experience, while involving less hassle and being more secure.
 
-  The  -p  option  should be considered the least secure of all of sshpass's options.  All system users can see the password in the command line with a simple
-"ps" command. Sshpass makes a minimal attempt to hide the password, but such attempts are doomed to create race  conditions  without  actually  solving  the
-problem. Users of sshpass are encouraged to use one of the other password passing techniques, which are all more secure.
+  The  -p  option  should be considered the least secure of all of sshpass's options.  All system users can see the password in the command line with a simple "ps" command. Sshpass makes a minimal attempt to hide the password, but such attempts are doomed to create race conditions  without actually  solving  the problem. Users of sshpass are encouraged to use one of the other password passing techniques, which are all more secure.
 
-   In  particular,  people  writing  programs  that  are meant to communicate the password programatically are encouraged to use an anonymous pipe and pass the
-pipe's reading end to sshpass using the -d option.
+   In  particular,  people  writing  programs  that  are meant to communicate the password programatically are encouraged to use an anonymous pipe and pass the pipe's reading end to sshpass using the -d option.
 
 ```
-```
-
-
 So, you can see the heads up right? Does the environment had got some sort of binding to some sort of compliance to prohibit key-exchange? No. They just simply failed to realized the importance of it. See, the little things make hell lot of difference.
 
 Because I did open source development and install tweak many many thousand of software ,so I have had the habit of reading the README or DOCUMENTATION file before I started to do anything with the software. It is always a good habit to read the important information beforehand and then jump onto it. It's help certainly. So ,getting into that habit need sometime spend with it. Nowadays ,most people are so accustomed with search engine ,that they forgot the habit of reading the crucial piece. Because whenever they are in doubt ,they just use the search engine to find the answer, I too do,but very very limited cases ,not all the time, plus in very few specific places.
