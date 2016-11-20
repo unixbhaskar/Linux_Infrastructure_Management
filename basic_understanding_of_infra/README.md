@@ -2,9 +2,9 @@
 
 Understanding the environment for work is an utmost need for any person to work on infrastructure domain.
 
-For instance, whether it is a normal physical infra or based on cloud. There is a need  of certain mind shift in working in two different environment.
+For instance, whether it is a normal physical infra or based on cloud. There is a need  of certain mind shift for working in two different environment.
 
-Traditional DC environment is different then the "virtual Data Center" environment. Things are  different
+Traditional DC environment is different than the "virtual Data Center" environment. Things are  different
 
 I have had been to physical data center and virtual data center too. Operating is an undertaking in both the places (yep! You guessed it right, my lack of bend of mind) ,but somehow I float by on both the environment without much hassle.
 
@@ -32,13 +32,13 @@ I had the good fortune to work for pretty big and good name IT giant for sometim
 
 Oh did I see those so called "big shots" during scheduled downtime? Those who refrain showing up all the time in the year and send some chilled and awful emails to the person down the lines, amazing persons those are, heck.
 
-Managing geographically distributed DC or working in it is a daunting task. Specially when you are working in pretty low (o yeah not in that "big shot" role), because lot of things get hidden from you. Reason behind exactly two: you are not in the "big shot" level to know everything, forget about accessing and seeing. Second, you have been constantly told "do not assume anything"; how come? I think those who said that ,seriously deserve a f***  **word .Can't help.**
+Managing geographically distributed DC or working in it is a daunting task. Specially when you are working in pretty low (o yeah not in that "big shot" role), because lot of things get hidden from you. Reason behind exactly two: you are not in the "big shot" level to know everything, forget about accessing and seeing. Second, you have been constantly told "do not assume anything"; how come? I think those who said that ,seriously deserve a **f**  word .Can't help.
 
-Now the downside. I was running some automation script and which bother some users; they  complained to me "what is your problem?; I was bit weary that time.
+Now the downside. I was running some automation script and which bother some users; they  complained to me "what is your problem?" I was bit weary that time.
 
-Working in 24/7 and 365 days schedule mar lot of your plan and commitment, but has to do. Once taken the responsibilities you just can not bypass it, because lot of thing might depend on your action.Basically, I meant to say,  prepared for the heads up very frequent and repetitive way and pull your socks all the time; no respite.
+Working in 24/7 and 365 days schedule mar lot of your plan and commitment, but has to do. Once taken the responsibilities, you just can not bypass it, because lot of thing might depend on your action.Basically, I meant to say,  prepared for the heads up very frequent and repetitive way and pull your socks all the time; no respite.
 
-General term; try to segregate the important thing from the masses.You can get hold of them in time of urgency. Like ,you should have information about  ; where the DNS servers are located and where the NIS servers are located.
+General term: try to segregate the important thing from the masses.You can get hold of them in time of urgency. Like ,you should have information about ; where the DNS servers are located and where the NIS servers are located.
 
 Last but not the least, you got to work with a team of people like you; so try to mingle with them genuinely and make them feel happy about you. Because they will be the one who will save your ass, when you will be in distress.
 
