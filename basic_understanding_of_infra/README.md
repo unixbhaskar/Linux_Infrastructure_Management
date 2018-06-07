@@ -42,7 +42,7 @@ General term: try to segregate the important thing from the masses.You can get h
 
 Last but not the least, you got to work with a team of people like you; so try to mingle with them genuinely and make them feel happy about you. Because they will be the one who will save your ass, when you will be in distress.
 
-Okay, enough chit chat; lets fasten your sit belt for the ride.
+Okay, enough chit chat; lets fasten your seat belt for the ride.
 
 
 
