@@ -3,7 +3,7 @@ Basic_Understanding_Of_Infra.txt
 Things_To_Consider.txt
 Information_Management.txt
 Problem_Management.txt
-Soution_Delivery.txt
+Solution_Delivery.txt
 Automation_and_Configuration_Management.txt
 Backup_and_Retrieval.txt
 Monitoring_Infrastructure.txt
