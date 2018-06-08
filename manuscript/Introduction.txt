@@ -1,4 +1,4 @@
-# Linux Infrastructure Management
+# Introduction
 
 Welcome to the parlance of GNU/Linux infrastructure management space.
 
