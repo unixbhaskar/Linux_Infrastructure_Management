@@ -97,9 +97,9 @@ Checkpoints too:
 7) If the site has ssl connection check it by s_client from the cli to make sure it responding properly.
 
 8)Check the website landing page response time with the below script:
-```
-```
 
+
+```
 #!/bin/bash
 CURL="/usr/bin/curl"
 GAWK="/usr/bin/gawk"
@@ -111,7 +111,7 @@ echo " Time_Connect     Time_startTransfer   Time_total "
 echo $result | $GAWK -F: '{ print    $1"               "$2"                   "$3}'
 ```
 
-```
+
 I would like to record the failure too!!. So I can get a better insight about the problem solving. You can capture it several ways in the server itself and then send the file by mail or central location from where you can audit. One of readymade tool will be UNIX tool i.e script. It will record everything you typed at the terminal and create a file in the respective user home directory (although you can tweak it). There are many more "Enterprise way of doing that thing ...which I am not too inclined to discuss.
 
 RCA, it is big big buzzword in lesser IT driven company ...I have had worked for them I know how pathetically they wrote those, full of nonsense stories; kinda red herring.
