@@ -79,7 +79,7 @@ Otherwise, do it by script (I did it in that fashion) although the version has c
 # tar --strip-components=$NO_OF_COMP -cf "dokuwiki-${NEWNAME}.tar" dokuwiki
 # gzip "dokuwiki-${NEWNAME}.tar"
 
-``````
+```
 
 That's it!. This will do all the things require to install in the system. Then you are suppose to access the web UI and adding pages according to the wiki style and keep it updated. Then ,share the url to everyone to read it, but allow or restrict only designated people to update it. Because it might play a huge role to maintain the infrastructure.
 
