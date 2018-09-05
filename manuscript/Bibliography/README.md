@@ -1,2 +1,2 @@
-* [ Goodreads Profile] ( https://www.goodreads.com/unixbhaskar)
+ Goodreads Profile :  https://www.goodreads.com/unixbhaskar
 
