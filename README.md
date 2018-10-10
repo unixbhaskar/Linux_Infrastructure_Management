@@ -8,3 +8,5 @@ Expected Readers:
 
 Those who has hands on managing the enterprise infra .Few simple procedure to get the job done in day to day basis.
 
+
+                     Linux® is a registered trademark of Linus Torvalds 
