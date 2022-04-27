@@ -1,7 +1,3 @@
-﻿#+title: Linux Infrastructure Management Part-III
-#+date: 2022-04-28
-#+tags: Technical
-
 * *Information Management*
 
 */"Information Management"/* means keeping the information in an easily accessible
