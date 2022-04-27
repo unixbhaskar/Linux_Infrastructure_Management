@@ -1,9 +1,3 @@
-﻿#+BLOG: Unixbhaskar's Blog
-#+POSTID: 991
-#+title: Linux Infrastructure Management Part-II
-#+date: 2022-04-27
-#+tags: Technical
-
 * *Things To Consider*
 
 We are supposed to know the underlying infrastructure, I meant to say, how the
