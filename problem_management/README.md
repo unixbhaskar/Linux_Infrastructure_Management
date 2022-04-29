@@ -5,7 +5,11 @@ infrastructure can be handled and mitigated efficient way.
 
 Oh,if you missed those previous parts of this series, here they are :
 
-[[https://unixbhaskar.wordpress.com/2022/04/26/linux-infrastructure-management-part-i/][Part-One]]  [[https://unixbhaskar.wordpress.com/2022/04/27/linux-infrastructure-management-part-ii/][Part-Two]] and [[https://unixbhaskar.wordpress.com/2022/04/28/linux-infrastructure-management-part-iii/][Part-Three]] .
+[Part-One](https://unixbhaskar.wordpress.com/2022/04/26/linux-infrastructure-management-part-i/)
+
+[Part-Two](https://unixbhaskar.wordpress.com/2022/04/27/linux-infrastructure-management-part-ii/)
+
+[Part-Three](https://unixbhaskar.wordpress.com/2022/04/28/linux-infrastructure-management-part-iii/)
 
 I am the kind of person, who doesn't believe in stories but believes in what is
 actually happening/happen thing. And strongly believe living with a bunch of
