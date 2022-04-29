@@ -7,7 +7,13 @@ some "Black Suit" wearing fellow sitting on top.
 
 In case, if you have missed previous articles of this series, here they are :
 
-[[https://unixbhaskar.wordpress.com/2022/04/26/linux-infrastructure-management-part-i/][Part-One]] , [[https://unixbhaskar.wordpress.com/2022/04/27/linux-infrastructure-management-part-ii/][Part-Two]] , [[https://unixbhaskar.wordpress.com/2022/04/28/linux-infrastructure-management-part-iii/][Part-Three]] and [[https://unixbhaskar.wordpress.com/2022/04/29/linux-infrastructure-management-part-iv/][Part-Four]]
+[Part-One](https://unixbhaskar.wordpress.com/2022/04/26/linux-infrastructure-management-part-i/)
+
+[Part-Two](https://unixbhaskar.wordpress.com/2022/04/27/linux-infrastructure-management-part-ii/)
+
+[Part-Three](https://unixbhaskar.wordpress.com/2022/04/28/linux-infrastructure-management-part-iii/)
+
+[Part-Four](https://unixbhaskar.wordpress.com/2022/04/29/linux-infrastructure-management-part-iv/)
 
 But from a technical standpoint of view, we have to make sure everything in
 place to make the solution will be sustained. And we might use it in the future
